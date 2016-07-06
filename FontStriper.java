@@ -71,15 +71,15 @@ public class FontStriper extends JFrame {
 		panel.add(panel_1, BorderLayout.NORTH);
 		panel_1.setLayout(new GridLayout(0, 3, 0, 0));
 		
-		JButton button = new JButton("選擇檔案");
+		JButton button = new JButton("選擇檔案(select files)");
 		panel_1.add(button);
 		button.setToolTipText("選擇單一個檔案，並解讀裡面的字元。");
 		
-		JButton button_1 = new JButton("選擇目錄");
+		JButton button_1 = new JButton("選擇目錄(select folder)");
 		panel_1.add(button_1);
 		button_1.setToolTipText("選擇一個目錄並解讀裡面所有的檔案，請注意！若此目錄下的檔案包含非文字檔，將可能造成不可預期的結果。");
 		
-		JButton btnfontforge = new JButton("輸出FontForge命令稿");
+		JButton btnfontforge = new JButton("輸出命令(output)");
 		panel_1.add(btnfontforge);
 		
 		JPanel panel_2 = new JPanel();
